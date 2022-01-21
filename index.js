@@ -12,7 +12,8 @@ const questions = [
     'License:',
     'Contributor:',
     'Test:',
-    'Email:'
+    'Email:',
+    'Github:'
 ]
 
 // TODO: Create a function to write README file
@@ -64,6 +65,11 @@ function init() {
             type: 'input',
             message: `${questions[7]}`,
             name: 'question'
+        },
+        {
+            type: 'input',
+            message: `${questions[8]}`,
+            name: 'github'
         },
     ])
         .then((Response) => {

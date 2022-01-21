@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
   }else if ( license === 'isc'){
     return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'
   } else if (license === 'ODbl'){
-    return '[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)]'
+    return '![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)'
   } else {
     return ''
   }
@@ -74,7 +74,9 @@ ${data.contribution}
 ## Test
 ${data.test}
 ## Question
-${data.question}
+If there is any questions, free feel to reach out to me through github or email.  
+Email: <${data.question}>  
+Github: <${data.github}>  
 ## License
 ${sectionEl}  
 
