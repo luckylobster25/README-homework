@@ -15,10 +15,6 @@ const questions = [
     'Email:'
 ]
 
-
-// console.log(generateMarkdown(questions));
-// console.log(questions);
-// console.log(fs, generateMarkdown);
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
@@ -52,7 +48,7 @@ function init() {
             type: 'list',
             message: `${questions[4]}`,
             name: 'license',
-            choices: ['mit', 'isc', 'unlicense']
+            choices: ['mit', 'isc', 'ODbl']
         },
         {
             type: 'input',
