@@ -1,5 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === 'mit'){
     return ("[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)")
@@ -12,8 +10,6 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'mit'){
     return ""
@@ -26,8 +22,6 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === 'mit'){
     return 'THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
@@ -41,7 +35,6 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const badge = renderLicenseBadge(data.license);
   const link = renderLicenseLink(data.license);
@@ -55,7 +48,7 @@ function generateMarkdown(data) {
   console.log(sectionEl);
   return `# ${data.name}💎
 ${badge}
-## Table of Content
+## 📝 Table of Content
 *[Introduction](#introduction)  
 *[Installation](#installation)  
 *[Usage](#usage)  
@@ -65,7 +58,7 @@ ${badge}
 *[License](#license)  
 ## Introduction: 
 ${data.description}
-## Installation required:
+## 🛠️ Installation required:
 ${data.installation}
 ## How to use this application:
 ${data.usage}
@@ -75,12 +68,12 @@ ${data.contribution}
 ${data.test}
 ## Question
 If there is any questions, free feel to reach out to me through github or email.  
-Email: <${data.question}>  
-Github: <${data.github}>  
+📧 Email: <${data.question}>  
+📂 Github: <${data.github}>  
 ## License
 ${sectionEl}  
 
 `;
 }
-
+// above is the template of the README file
 module.exports = generateMarkdown;
