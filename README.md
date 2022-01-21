@@ -2,17 +2,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## 📝 Table of Content
 *[Introduction](#introduction)  
-*[Installation](#installation)  
-*[Usage](#usage)  
+*[Installation](#installation-required)  
+*[How to use this application](#how-to-use-this-application)  
 *[Contribution](#contribution)  
 *[Test](#test)  
 *[Question](#question)  
 *[License](#license)  
 ## Introduction: 
 Welcome to the README generator. This README file is created using codes to create a template. The purpose is to save time from creating file from scratch.
-## 🛠️ Installation required:
+## Installation-required: 
 This application require the installation of Inquirer. Which take user input and put data into the right place in README file.
-## How to use this application:
+## How-to-use-this-application:
 [Video of how to use it](https://watch.screencastify.com/v/P5yH6r05c21d3Mz14DqJ)  
 It is an easy-to-use application for users who is looking to create README file using template such as this one.
 ## Contribution:
