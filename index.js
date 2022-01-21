@@ -71,7 +71,6 @@ function init() {
         },
     ])
         .then((Response) => {
-            console.log(Response);
             const newFile = generateMarkdown(Response)
             writeToFile('README.md',newFile)
     

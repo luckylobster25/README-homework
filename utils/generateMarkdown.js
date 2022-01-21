@@ -45,7 +45,6 @@ function generateMarkdown(data) {
   }else {
     sectionEl = link;
   };
-  console.log(sectionEl);
   return `# ${data.name}💎
 ${badge}
 ## 📝 Table of Content
