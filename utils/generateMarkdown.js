@@ -56,20 +56,20 @@ function generateMarkdown(data) {
   return `# ${data.name}💎
 ${badge}
 ## Table of Content
-*[Description](#description)  
+*[Introduction](#introduction)  
 *[Installation](#installation)  
 *[Usage](#usage)  
 *[Contribution](#contribution)  
 *[Test](#test)  
 *[Question](#question)  
 *[License](#license)  
-## Description: 
+## Introduction: 
 ${data.description}
-## Installation
+## Installation required:
 ${data.installation}
-## Usage
+## How to use this application:
 ${data.usage}
-## Contribution
+## Contribution:
 ${data.contribution}
 ## Test
 ${data.test}
@@ -79,13 +79,6 @@ Email: <${data.question}>
 Github: <${data.github}>  
 ## License
 ${sectionEl}  
-
-
-
-
-
-
-
 
 `;
 }
